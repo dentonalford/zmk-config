@@ -19,3 +19,5 @@
 ---
 include:
   - board: preonic_rev3
+  - board: preonic_rev3
+    shield: preonic_rev3_chords
