@@ -63,7 +63,7 @@
             bindings = <
                  &none  &none   &none        &none        &none        &none   &none    &none     &none   &none     &none   &none
                  &trans  &none  &none        &none        &none        &none   &none    &none     &none   &none     &none   &trans
-                 &trans  &none  &kp CTRL     &kp LALT     &kp LGUI     &none   &kp LEFT &kp DOWN  &kp UP  &kp RIGHT &none   &trans
+                 &trans  &none  &kp LCTRL    &kp LALT     &kp LGUI     &none   &kp LEFT &kp DOWN  &kp UP  &kp RIGHT &none   &trans
                  &trans  &none  &kp LGUI(X)  &kp LGUI(C)  &kp LGUI(V)  &none   &none    &none     &none   &none     &none   &trans
                  &trans &trans  &trans       &trans       &trans       &trans  &trans   &trans    &trans  &trans    &trans  &trans
                  >;
