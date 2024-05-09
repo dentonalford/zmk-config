@@ -14,6 +14,25 @@
 / {
     chosen { zmk,matrix-transform = &layout_grid_transform; };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <13 14>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <25 26>;
+        };
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <37 38>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
